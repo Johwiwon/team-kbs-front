@@ -1,5 +1,17 @@
 <template>
-  <div class="about">
-    <h1>어바웃 페이지입니다.</h1>
+  <div>
+   <tableLayout></tableLayout>
   </div>
 </template>
+
+<script>
+import tableLayout from "@/components/tableLayout";
+  export default {
+    data: () => ({
+    
+  }),
+  components:{
+    tableLayout,
+  }
+}
+</script>
